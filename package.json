@@ -1,0 +1,30 @@
+{
+  "name": "WhatsappBypassMessage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-collapsible": "^0.12.0",
+    "react-native-country-picker-modal": "^0.6.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.1.0",
+    "react-test-renderer": "16.3.1",
+    "redux-devtools": "^3.4.1",
+    "redux-saga": "^0.16.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
