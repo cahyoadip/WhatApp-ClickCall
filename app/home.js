@@ -169,7 +169,6 @@ class Main extends Component {
   }
 
   saveNumber (cca2, number, alias) {
-    console.log('save')
     let generateID = Math.random().toString(3).substring(2, 5)
     let getDate = this.createDate()
     let data = {"cca2": cca2, "id": generateID, "number": number, "alias": alias, "date": getDate};
